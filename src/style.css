@@ -1,0 +1,19 @@
+html, body { margin: 0; height: 100%; background: #1a1018; }
+#app {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  cursor: grab;
+}
+#app:active { cursor: grabbing; }
+.overlay {
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+  color: #f8f0f5;
+  font-family: system-ui, sans-serif;
+  pointer-events: none;
+}
+.overlay h1 { margin: 0; color: #d4af37; font-size: 20px; }
+.overlay p { margin: 4px 0 0; opacity: 0.7; font-size: 13px; }
